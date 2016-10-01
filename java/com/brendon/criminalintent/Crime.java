@@ -4,6 +4,10 @@ package com.brendon.criminalintent;
 import java.util.Date;
 import java.util.UUID;
 
+/*
+This will generate a new Crime, unique ID of a random number and the date it was created.
+ */
+
 public class Crime {
 
     private UUID mID;

@@ -12,6 +12,7 @@ public class CrimeActivity extends SingleFragmentActivity {
     private static final String EXTRA_CRIME_ID =
             "com.brendon.criminalintent.crime_id";
 
+
     public static Intent newIntent(Context packageContext, UUID crimeID) {
 
         Intent intent = new Intent(packageContext, CrimeActivity.class);
