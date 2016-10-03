@@ -42,7 +42,7 @@ public class DatePickerFragment extends DialogFragment {
 
         Date date = (Date) getArguments().getSerializable(ARG_DATE);
 
-        // Changes Date to a calander object.
+        // Changes Date to a calender object.
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
 
@@ -76,6 +76,7 @@ public class DatePickerFragment extends DialogFragment {
 
     }
 
+    // Sends date information back to hosting Activity when onActivity is called.
     private void sendResult(int resultCode, Date date) {
 
         if (getTargetFragment() == null) {
